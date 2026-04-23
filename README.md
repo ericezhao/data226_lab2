@@ -7,7 +7,7 @@ The system ingests raw weather data, transforms it into analytical datasets, and
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
         +------------------+
@@ -48,7 +48,7 @@ The system ingests raw weather data, transforms it into analytical datasets, and
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - Apache Airflow → Workflow orchestration (ETL + dbt scheduling)
 - dbt (Data Build Tool) → ELT transformations
@@ -88,7 +88,7 @@ Features:
 
 ---
 
-## 🧾 Database Schema
+## Database Schema
 
 ### Raw Table (`weather_data`)
 - id (INT)
